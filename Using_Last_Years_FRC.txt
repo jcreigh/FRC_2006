@@ -1,0 +1,17 @@
+To compile this project to work with your 2005 FRC (18F8520) system do the following:
+
+  1.  Select the correct device from the MPLAB IDE. 
+
+      Configure->Select Device->PIC18F8520
+
+  2.  Replace the library file with the appropriate one.
+
+      Remove the FRC_Library.lib file and replace it with FRC_Library_8520.lib
+       
+                                        or
+
+      Remove the FRC_alltimers.lib file and replace it with FRC_alltimers_8520.lib
+
+  3.  Remove the 18f8722.lkr file and replace it with the 18f8520.lkr file
+
+  4.  Rebuild your project and download the HEX file to your controller.
